@@ -1,6 +1,6 @@
 # SyncFil
 
-**SyncFil** is a Python script that synchronizes movie files between two network drives. It checks the source directory for missing files in the target directory and copies them over, ensuring both directories have the same files. This tool supports running in a **dry-run mode** to simulate the synchronization process without making any changes.
+**SyncFil** is a Python script that synchronizes files between two network drives. It checks the source directory for missing files in the target directory and copies them over, ensuring both directories have the same files. This tool supports running in a **dry-run mode** to simulate the synchronization process without making any changes.
 
 ## Features
 
