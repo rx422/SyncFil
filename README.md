@@ -17,7 +17,7 @@
 
 ## Installation
 
-1. Clone the repository or download the `sync_files.py` script.
+1. Clone the repository or download the `syncfil.py` script.
 
    ```bash
    git clone https://github.com/yourusername/syncfil.git
@@ -41,12 +41,12 @@ Run the script to synchronize files. You must provide the source and target path
 Dry-run (simulate):
 
    ```bash
-   python sync_files.py "\\sklad.local\\movies" "\\raspberrypi.local\\Movies" --dry-run
+   python syncfil.py "\\sklad.local\\movies" "\\raspberrypi.local\\Movies" --dry-run
 ```
 Actual Sync (copy files):
 
    ```bash
-   python sync_files.py "\\sklad.local\\movies" "\\raspberrypi.local\\Movies"
+   python syncfil.py "\\sklad.local\\movies" "\\raspberrypi.local\\Movies"
 ```
 ## Command-Line Options
 `source`: Path to the source directory (e.g., `\\sklad.local\Movies`).
