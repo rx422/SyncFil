@@ -20,7 +20,7 @@
 1. Clone the repository or download the `syncfil.py` script.
 
    ```bash
-   git clone https://github.com/yourusername/syncfil.git
+   git clone https://github.com/rx422/syncfil.git
    cd syncfil
 
 2. Ensure you have Python 3.x installed.
